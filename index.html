@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment-Gateway</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navcontainer">
+        <div class="logopic">
+          <img src="images/logopic.png" alt="logopic" />
+        </div>
+        <div class="logo">
+          Sparks Donation
+        </div>
+        <div class="navitems">
+          <li><a class="navitem1" href="index.html">Home</a></li>
+          <li><a class="navitem2" href="#contactus">Contact Us</a></li>
+          <li><a class="navitem3" href="#aboutus">About</a></li>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="text">
+          <h4>
+            Generosity is the act that unites humanity. Together, we can turn
+            compassion into action and make a difference in the lives of those
+            who need it most.
+          </h4>
+        </div>
+        <div class="donatebutton">
+          <button
+            class="dbutton"
+            onclick="window.location.href = 'https://donate.stripe.com/test_cN23eVfHfak5gIoeUU'"
+          >
+            Donate
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="aboutus">
+      <h3 class="heading">About Us</h3>
+      <div class="content-box">
+        <div class="box1">
+          <img src="images/ourvision.jpg" alt="visionimage" />
+          <h4 class="subheading">Our Vision</h4>
+          <p>
+            We envision a world where generosity knows no bounds, where every
+            act of kindness creates a ripple effect of positive change. Through
+            our platform, we aim to foster a global community of givers, working
+            together to address pressing issues and improve the lives of those
+            less fortunate.
+          </p>
+        </div>
+        <div class="box2">
+          <img src="images/whatdrivesus.jpg" alt="whatdrivesusimage" />
+          <h4 class="subheading">What Drives Us</h4>
+          <p>
+            At Sparks Donation, our motivation comes from the belief that small
+            acts of kindness can have a profound and lasting impact. Whether
+            it's supporting disaster relief efforts, funding education
+            initiatives, or providing vital resources to underserved
+            communities, we believe that every donation counts. We are driven by
+            the idea that together, we can build a brighter future for all.
+          </p>
+        </div>
+        <div class="box3">
+          <img src="images/commitment.jpg" alt="commitment" />
+          <h4 class="subheading">Our Commitment</h4>
+          <p>
+            Transparency and trust are at the core of everything we do. When you
+            donate through our platform, you can rest assured that your
+            contribution will reach its intended destination. We partner with
+            reputable organizations and charities to ensure that your generosity
+            makes a real difference.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contactus">
+      <div class="content">
+        <h1 class="heading">CONTACT US</h1>
+      </div>
+      <div class="info">
+        <div class="leftbox">
+          <h3>Get in touch with us!</h3>
+          <form>
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" />
+            <br />
+            <br />
+          </form>
+          <textarea
+            id="message"
+            name="message"
+            rows="10"
+            cols="50"
+            placeholder="leave us a message"
+          ></textarea>
+          <br />
+          <button type="button">Submit</button>
+        </div>
+        <div class="rightbox">
+          <img src="images/conactus2.avif" alt="contactusimage" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

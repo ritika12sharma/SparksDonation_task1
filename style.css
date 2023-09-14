@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    width:100%;
+    height:90vh;
+    background: url(images/bgimage.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-color: rgba(252, 251, 251, 0.6) ;
+    z-index:-1;
+    background-repeat:no-repeat;
+}
+
+
+
+.container{
+    width:100%;
+    height:100%;
+    z-index:2;
+    
+    
+}
+.navcontainer{
+    width:100%;
+    min-height: 10px;
+    display:flex;
+    gap:10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+}
+.logopic img{
+    width:50px;
+    height:50px;
+    margin:10px;
+    color:azure;
+
+    
+}
+.navcontainer .logo{
+    font-size:38px;
+    padding:10px;
+    font-weight:700;
+    font-family: 'Anton', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Libre Baskerville', serif;
+    color:#E5D283;
+    
+}
+
+.navitems{
+    list-style-type: none;
+    text-decoration: none;
+    font-size:1.2rem;
+    font-weight: 600;
+    margin-left:400px;
+    margin-top:10px;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+.navitems li{
+
+    padding:20px;
+    
+}
+.navitems a{
+    text-decoration: none;
+    color: #E25E3E;
+    border:1px solid black;
+    padding:7px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Libre Baskerville', serif;
+}
+.navitem1:hover {
+    background-color:#f8fcaf;
+}
+.navitem2:hover {
+    background-color: #f8fcaf;
+}
+
+.navitem3:hover {
+    background-color: #f8fcaf;
+}
+
+
+.main{
+    width:500px;
+    height:400px;
+    margin-left:700px;
+    margin-top:40px;
+    padding:20px;
+}
+
+.text{
+    font-size:1.6rem;
+    line-height: 50px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Caveat', cursive;
+
+}
+.donatebutton  button{
+    width:100px;
+    height:40px;
+    font-size: 1.2rem;
+    background-color: #609966;
+    transition: transform .2s;
+}
+
+.donatebutton:hover button{
+    border-color: #FF5858;
+    transform: scale(1.1); 
+
+} 
+#aboutus {
+    width:95%;
+    margin-top:300px;
+    margin-left: 30px;
+    
+    
+}
+.content-box{
+   
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    
+}
+.heading{
+    margin:20px;
+    font-size:1.8rem;
+    padding:10px;
+}
+.box1{
+    display:flex;
+    flex-direction: column;
+    width:380px;
+    height:630px;
+    
+    padding:10px;
+    border:1px solid black;
+    text-align: center;
+    font-size:1.2rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Caveat', cursive;
+    background-color: #E25E3E;
+}
+.box2{
+    display:flex;
+    flex-direction: column;
+    width:380px;
+    height:630px;
+    padding:10px;
+    border:1px solid black;
+    text-align: center;
+    font-size:1.2rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Caveat', cursive;
+    background-color: #FF9B50;
+}
+.box3{
+    display:flex;
+    flex-direction: column;
+    width:380px;
+    height:630px;
+    padding:10px;
+    border:1px solid black;
+    text-align: center;
+    font-size:1.2rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Caveat', cursive;
+    background-color: #FFBB5C;
+}
+.box1 img{
+    width:100%;
+    height:240px;
+}
+.box2 img{
+    width:100%;
+    height:240px;
+}
+.box3 img{
+    width:100%;
+    height:240px;
+}
+
+
+.subheading{
+    margin:20px 30px 20px 10px;
+    font-size: 1.5rem;
+
+}
+.subheading p{
+    padding:10px;
+    margin-top: 30px;
+    
+}
+
+#contactus
+{
+    width:100%;
+}
+#contactus .content{
+    background-image: url(images/pic.jpg);
+    width:100%;
+    height:700px;
+    background-position: center top;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+    opacity: 0.8;
+}
+
+#contactus .content .heading {
+    margin-top:200px;
+    font-size: 150px;
+    color:white;
+    text-align: center;
+    padding-top:300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.info
+{
+    margin:30px;
+    padding:30px;
+    display:flex;
+}
+
+
+
+.leftbox{
+    margin-left:40px;
+    margin-top:10px;
+}
+.leftbox h3{
+    font-size:30px;
+    color:rgb(77, 24, 24);
+}
+form{
+    line-height: 40px;
+
+}
+form label{
+    font-size: 20px;
+}
+form input{
+    width:250px;
+    height:30px;
+}
+.leftbox button{
+    margin-left: 350px;
+    width:100px;
+    height:50px;
+    font-size: 0.9rem;
+    color:black;
+    background-color:#FF5858;
+    border-radius: 5%;
+    border:3px solid black;
+}
